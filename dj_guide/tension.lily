@@ -1,0 +1,18 @@
+\drums \with {
+    instrumentName = \markup {
+        \right-column {
+            \line { "hihat" }
+            \line { "snare" }
+            \line { "kick drum" }
+        }
+    }
+} <<
+    \new DrumVoice \drummode {
+        \voiceOne
+        r8 hh8 s8 hh8 r8 hh8 s8 hh8 | r8 hh8 s8 hh8 r8 hh8 s8 hh8
+    }
+    \new DrumVoice \drummode {
+        \voiceTwo
+        bassdrum8 r8 <bassdrum snare>8 r8 bassdrum8 r8 <bassdrum snare>8 r8 | bassdrum8 r8 <bassdrum snare>8 r8 bassdrum8 r8 <bassdrum snare>8 snare8
+    }
+>>

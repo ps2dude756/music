@@ -1,0 +1,11 @@
+\drums \with {
+    instrumentName = \markup {
+        \right-column {
+            \line { "snare" }
+            \line { "kick drum" }
+        }
+    }
+}
+{
+    bassdrum4 snare4 bassdrum4 snare4 | bassdrum4 snare4 bassdrum4 snare4
+}

@@ -1,0 +1,15 @@
+kickdrum = \drummode {
+    bassdrum4 bassdrum4 bassdrum4 bassdrum4 | bassdrum4 bassdrum4 bassdrum4 bassdrum4
+}
+
+snaredrum = \drummode {
+    r4 snare4 r4 snare4 | r4 snare4 r4 snare8 snare8
+}
+
+hihatcymbal = \drummode {
+    r8 hh4 hh4 hh4 hh8 | r8 hh4 hh4 hh4 hh8
+}
+
+<<
+    \new DrumStaff \partCombine \kickdrum \snaredrum \hihatcymbal
+>>
